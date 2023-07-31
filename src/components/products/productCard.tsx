@@ -26,8 +26,8 @@ export default function ProductCard({
         <span>{tag}</span>
       </h4>
       <p>{description}</p>
-      <a className="readMore" href="#">
-        LER MAIS
+      <a className="readMore" href="https://api.whatsapp.com/send?phone=5547999516182">
+        CONTRATAR
       </a>
     </S.ProductCard>
   );

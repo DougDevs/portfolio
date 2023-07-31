@@ -46,6 +46,7 @@ export const PriceCard = styled.div`
     margin-bottom: 15px;
   }
 
+  
   ul {
     margin-top: 25px;
     margin-bottom: 50px;
@@ -109,4 +110,6 @@ export const PriceCard = styled.div`
     margin-top: 0px;
   }
 }
+
+
 `;

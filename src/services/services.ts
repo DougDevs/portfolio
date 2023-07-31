@@ -6,43 +6,43 @@ export const apiProducts = [
   {
     id: 1,
     img: example1,
-    name: "Conteúdo",
-    tag: "Informação",
+    name: "Página na internet",
+    tag: "Marketing",
     description:
-      "Nosso time de redatores está pronto para falar de todos assuntos relevantes ao seu negócio com muita criatividade.",
+      "Seja profissional, tenha uma página na internet com as informações da sua empresa.",
   },
   {
     id: 2,
     img: example2,
-    name: "Fotos do seu produto",
-    tag: "Imagem",
-    description: "Uma boa apresentação é capaz de conquistar muito mais clientes.",
+    name: "Site StarTup",
+    tag: "Crescimento",
+    description: "Se você presta serviços, tenha uma página na internet mostrando seus serviços.",
   },
   {
     id: 3,
     img: example3,
-    name: "Consultoria",
-    tag: "Gerenciamento",
-    description: "Saber o que esperar daqui para frente é importante. Conte com nossa consultoria de negócios para alinhar as expectativas.",
+    name: "Portal na web",
+    tag: "Ampliação",
+    description: "Tenha um portal na internet mostrando todos os seus projetos e serviços através de varias páginas.",
   },
 ];
 
 export const apiServices = [
   {
     id: 1,
-    name:"Fotos profissionais",
-    description: "Uma boa apresentação do seu produto faz a diferença.",
+    name:"Tiramos fotos profissionais",
+    description: "Uma boa apresentação do seu negócio faz a diferença.",
   },
   {
     id: 2,
-    name:"Desenvolvimento de site",
-    description: "Concentre as informações da sua empresa de forma profissional e atualizada.",
+    name:"Desenvolvimento de sites",
+    description: "Sua empresa moderna e profissional.",
   },
   {
     id: 3,
-    name:"Relatórios das visitas di site",
-    description: "Acompanhe seu investimento de forma precisa.",
-  },
+    name:"Tenha seu domínio prórprio",
+    description: "credibilidade e performance.",
+  }
   // {
   //   id: 4,
   //   name:"Planejamento estratégico",
@@ -63,27 +63,27 @@ export const apiServices = [
 export const apiPricing = [
   {
     id: 1,
-    name: "Starter kit",
-    description: "Pacote ideal para você que está começando uma empresa e quer começar com o pé direito nas redes sociais.",
-    item1: "Site para sua empresa",
+    name: "Página na web",
+    description: "Seja profissional, tenha uma página na internet com as informações da sua empresa.",
+    item1: "moderno",
     item2: "Imagens",
-    item3: "contato",
+    item3: "informações de contato",
   },
   {
     id: 2,
-    name: "Profissional",
-    description: "Para sua empresa decolar",
+    name: "Site StarTup",
+    description: "Se você presta serviços, tenha uma página na internet mostrando seus serviços",
     item1: "Site para sua empresa",
     item2: "Fotos profissionais",
     item3: "Contato",
   },
-  // {
-  //   id: 3,
-  //   name: "Avançado",
-  //   price: "700$",
-  //   description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
-  //   item1: "kit Profissional",
-  //   item2: "Relatórios de performance",
-  //   item3: "Consultoria com especialista",
-  // }
+  {
+    id: 3,
+    name: "Portal na web",
+    price: "700$",
+    description: "Tenha um portal na internet mostrando todos os seus projetos e serviços através de varias páginas.",
+    item1: "fotos profissionais",
+    item2: "Relatórios de performance",
+    item3: "Várias páginas",
+  }
 ];

@@ -39,10 +39,10 @@ export default function Home() {
       <Services />
       <div id="work" className="divMidPage">
         <div className="divMidPageText">
-          <h2 className="h2MidPage">Entregamos resultados de verdade</h2>
+          <h2 className="h2MidPage">Desenvolvemos sites exclusivos para sua empresa</h2>
           <p className="pMidPage">
-            Impulsione suas vendas com um serviço completo de gerenciamento
-            online da sua marca. Tudo que você precisa na palma da mão.
+            Tenha um site para sua empresa e alcance novos horizontes
+            tenha mais credibilidade e nome no mercado!
           </p>
         </div>
       </div>

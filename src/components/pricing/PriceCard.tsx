@@ -19,7 +19,7 @@ export default function PriceCard(Props: Props) {
         <li>{Props.item2}</li>
         <li>{Props.item3}</li>
       </ul>
-      <a>CHOOSE</a>
+      <a href="https://api.whatsapp.com/send?phone=5547999516182">CONTRATAR</a>
     </S.PriceCard>
   );
 }

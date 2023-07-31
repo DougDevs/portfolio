@@ -24,37 +24,37 @@ export default function Header() {
     <S.HeaderMenu isVisible={headerIsVisible} menuVisible={menuIsVisible}>
       <S.NavList>
         <p className="logo">
-          <span>SC</span>DataLink
+          <span>SC DataLink</span>
         </p>
         <ul className="nav-list">
           <li>
             <a className="a" href="#home">
-              HOME
+              INICIO
             </a>
           </li>
           <li>
             <a className="a" href="#products">
-              PRODUCTS
+              PRODUTOS
             </a>
           </li>
           <li>
             <a className="a" href="#service">
-              SERVICE
+              SERVIÇOS
             </a>
           </li>
           <li>
             <a className="a" href="#work">
-              WORK
+              TRABALHO
             </a>
           </li>
           <li>
             <a className="a" href="#pricing">
-              PRICING
+              PLANOS
             </a>
           </li>
           <li>
             <a className="a" href="#contact">
-              CONTACT
+              CONTATO
             </a>
           </li>
         </ul>

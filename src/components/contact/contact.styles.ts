@@ -50,4 +50,6 @@ export const Contact = styled.section`
     margin-top: 25px;
   }
 }
+
+
 `;
