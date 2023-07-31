@@ -12,7 +12,7 @@ export default function Contact() {
         <div>
           <AiFillPhone className="icon" />
           <p>
-            <span>Ligue para:</span>
+            <span>Chame-nos no WhatsApp!:</span>
             {` (47) 99951-6182`}
           </p>
         </div>

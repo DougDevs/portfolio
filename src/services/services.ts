@@ -40,24 +40,24 @@ export const apiServices = [
   },
   {
     id: 3,
-    name:"Relatórios mensais",
+    name:"Relatórios das visitas di site",
     description: "Acompanhe seu investimento de forma precisa.",
   },
-  {
-    id: 4,
-    name:"Planejamento estratégico",
-    description: "Um plano completo com objetivos e prazos para sua empresa crescer.",
-  },
-  {
-    id: 5,
-    name:"Edição de vídeos",
-    description: "O conteúdo em vídeo é produzido e editado por nós mesmos, diminuindo o custo e o prazo.",
-  },
-  {
-    id: 6,
-    name:"Social Listening",
-    description: "Monitoramento das redes sociais com o SAC 3.0, para atender o seu cliente da melhor forma.",
-  },
+  // {
+  //   id: 4,
+  //   name:"Planejamento estratégico",
+  //   description: "Um plano completo com objetivos e prazos para sua empresa crescer.",
+  // },
+  // {
+  //   id: 5,
+  //   name:"Edição de vídeos",
+  //   description: "O conteúdo em vídeo é produzido e editado por nós mesmos, diminuindo o custo e o prazo.",
+  // },
+  // {
+  //   id: 6,
+  //   name:"Social Listening",
+  //   description: "Monitoramento das redes sociais com o SAC 3.0, para atender o seu cliente da melhor forma.",
+  // },
 ];
 
 export const apiPricing = [
@@ -65,25 +65,25 @@ export const apiPricing = [
     id: 1,
     name: "Starter kit",
     description: "Pacote ideal para você que está começando uma empresa e quer começar com o pé direito nas redes sociais.",
-    item1: "Fotos dos produtos",
-    item2: "Conteúdo mensal",
-    item3: "Social Listening",
+    item1: "Site para sua empresa",
+    item2: "Imagens",
+    item3: "contato",
   },
   {
     id: 2,
     name: "Profissional",
-    description: "Para sua empresa que já tem experiência e quer alcançar outros públicos.",
-    item1: "Starter kit",
-    item2: "Sac 3.0",
-    item3: "Relatórios de performance",
+    description: "Para sua empresa decolar",
+    item1: "Site para sua empresa",
+    item2: "Fotos profissionais",
+    item3: "Contato",
   },
-  {
-    id: 3,
-    name: "Avançado",
-    price: "249",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
-    item1: "kit Profissional",
-    item2: "Relatórios de performance",
-    item3: "Consultoria com especialista",
-  }
+  // {
+  //   id: 3,
+  //   name: "Avançado",
+  //   price: "700$",
+  //   description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  //   item1: "kit Profissional",
+  //   item2: "Relatórios de performance",
+  //   item3: "Consultoria com especialista",
+  // }
 ];

@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <div id="home" className="divImgBackgroud">
         <div className="divTitleHome">
-          <h1 className="titleHome">A sua agência digital</h1>
+          <h1 className="titleHome">Agência de sites</h1>
           <p className="pHome">
             Levar sua empresa mais longe não é complicado.
           </p>
@@ -51,8 +51,8 @@ export default function Home() {
       <S.Footer>
         <p>
           {`Desenvolvido por `}
-          <span>MK DIGITAL</span>
-          {` © 2022`}
+          <span>SC DataLink</span>
+          {` © 2023`}
         </p>
       </S.Footer>
     </S.HomeContainer>

@@ -27,7 +27,7 @@ export default function ProductCard({
       </h4>
       <p>{description}</p>
       <a className="readMore" href="#">
-        READ MORE
+        LER MAIS
       </a>
     </S.ProductCard>
   );
