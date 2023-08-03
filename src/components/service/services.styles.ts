@@ -39,10 +39,6 @@ export const ServiceCard = styled.div`
     h3 {
       color: #fff;
     }
-
-    p {
-      color: #fff;
-    }
   }
 
   h3 {
@@ -56,6 +52,8 @@ export const ServiceCard = styled.div`
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: center;
+    
   }
 
   p {

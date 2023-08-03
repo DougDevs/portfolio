@@ -8,8 +8,7 @@ export default function Products() {
       <div className="divTextProducts">
         <h2 className="h2SProducts">Serviços mais procurados</h2>
         <p className="pSProducts">
-          Conheça os principais serviços para começar a engajar o público no seu
-          conteúdo.
+          Conheça os principais serviços para começar a engajar o público no seu negócio.
         </p>
       </div>
       <div className="divProductsCard">

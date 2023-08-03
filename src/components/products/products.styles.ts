@@ -60,9 +60,6 @@ export const ProductCard = styled.section`
   h4 a {
     color: #515769;
   }
-  h4 a:hover {
-    color: #81848f;
-  }
 
   h4 span {
     margin-left: 20px;
@@ -82,11 +79,21 @@ export const ProductCard = styled.section`
   .readMore {
     font-size: 13px;
     font-weight: 600;
-    color: #81848f;
-    line-height: 1.42857143;
+    padding: 15px 40px;
+    color: #515769;
+    background: #f3f4f5;
+    border-color: transparent;
+    border-width: 0;
+  }
+  
+  .readMore:hover {
+    cursor: pointer;
+    background-color: #17bed2;
+    color: white;
+    transition-duration: .4s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7,1,.7,1);
   }
 
-  .readMore:hover {
-    color: #515769;
-  }
+
 `;

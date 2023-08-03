@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Contact = styled.section`
   padding: 10px;
+  margin-top: 50px;
 
   hr {
     width: 100%;

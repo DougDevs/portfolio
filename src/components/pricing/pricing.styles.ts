@@ -6,6 +6,7 @@ export const Pricing = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 
   .divApiPricing {
     background-color: #fafafa;
@@ -25,32 +26,33 @@ export const Pricing = styled.div`
 
 export const PriceCard = styled.div`
   background-color: white;
-  max-width: 700px;
-  height: 50%;
-  margin: 80px 10px 60px 10px;
-  padding: 70px 45px;
+  max-width: 800px; 
+  height: 480px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
   h3 {
     font-size: 22px;
     font-weight: 700;
     color: #515769;
     line-height: 1.4;
-    margin: 0 0 15px;
+    margin: 10px;
   }
 
   p {
     font-size: 15px;
     font-weight: 400;
     color: #a6a7aa;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin: 10px;
   }
 
-  
   ul {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    height: 200px;
+    margin: 10px;
     padding-left: 0;
     list-style: none;
   }
@@ -60,7 +62,7 @@ export const PriceCard = styled.div`
     font-size: 13px;
     color: #81848f;
     padding-left: 20px;
-    margin-bottom: 10px;
+    margin: 5px;
     font-weight: 500;
   }
 
@@ -75,6 +77,7 @@ export const PriceCard = styled.div`
   }
 
   a:hover {
+    background-color: #1492aa;
     cursor: pointer;
     background-color: #17bed2;
     color: white;
@@ -83,33 +86,25 @@ export const PriceCard = styled.div`
     transition-timing-function: cubic-bezier(.7,1,.7,1);
   }
 
-  @media(max-width: 770px) {
-  height: 80px;
+  @media (max-width: 770px) {
+    max-width: 100%;
+    height: auto;
 
-  h3 {
-    margin-top: -50px;
-    font-size: 18px;
-  }
+    h3 {
+      font-size: 18px;
+    }
 
-  p {
-    font-size: 11px;
-    margin-top: 0px;
-  }
-  ul {
-    margin-top: 0px;
-    margin-bottom: -10px;
-    height: 80px;
-  }
-  ul li {
-    font-size: 9px;
-  }
+    p {
+      font-size: 13px;
+    }
 
-  a {
-    font-size: 9px;
-    padding: 9px 32px;
-    margin-top: 0px;
+    ul li {
+      font-size: 11px;
+    }
+
+    a {
+      font-size: 11px;
+      padding: 10px 20px;
+    }
   }
-}
-
-
-`;
+}`;

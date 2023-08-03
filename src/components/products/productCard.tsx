@@ -22,7 +22,7 @@ export default function ProductCard({
         <img alt={name} src={img} />
       </div>
       <h4>
-        <a href="#">{name}</a>
+        <a>{name}</a>
         <span>{tag}</span>
       </h4>
       <p>{description}</p>
