@@ -6,6 +6,7 @@ import Contact from "../../components/contact/Contact";
 import * as S from "./home.style";
 import desktop1 from "../../img/desktop1.jpg";
 import desktop2 from "../../img/desktop2.jpg";
+import Gallery from "../../components/gallery/gallery";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
         </div>
       </div>
       <Pricing />
+      <Gallery/>
       <Contact />
       <S.Footer>
         <p>

@@ -40,6 +40,14 @@ export default function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
         <a
           onClick={() => setMenuIsVisible(false)}
           className="mobA"
+          href="#portifolio"
+        >
+          PORTFOLIOS
+        </a>
+
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
           href="#pricing"
         >
           PLANOS

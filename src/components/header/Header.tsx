@@ -48,6 +48,11 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a className="a" href="#portifolio">
+              PORTFOLIOS
+            </a>
+          </li>
+          <li>
             <a className="a" href="#pricing">
               PLANOS
             </a>
