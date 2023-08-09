@@ -39,13 +39,14 @@ export const apiServices = [
 {
     id: 1,
     name:"Somos uma Empresa Profissional em Desenvolver Sites",
-    description: "Oferecemos serviços especializados em desenvolvimento de sites de alta qualidade e desempenho para empresas de todos os segmentos..",
+    description: "Oferecemos serviços especializados em desenvolvimento de sites de alta qualidade e desempenho para empresas de todos os segmentos.",
   }
 ];
 export const apiPricing = [
  
   {
     id: 1,
+<<<<<<< HEAD
     name: "Site Startup",
     description: "O Site Startup Classe C é a escolha ideal para empreendedores e empresas em crescimento e que buscam reconhecimento. Fazemos atualizaçoes Mensais se necessário.",
     valor: 30,
@@ -63,16 +64,38 @@ export const apiPricing = [
     item2:"Atualizações semanais",
     item3:"Responsividade",
     
+=======
+    name: "Web Site",
+    description: " O Web Site Classe C é a opção perfeita para empresas e negócios que desejam uma presença online básica, mas efetiva. Com informações essenciais sobre sua empresa e imagens relevantes, esse site oferece aos clientes uma forma simples e acessível de conhecer seus produtos e serviços.",
+    item1: "Profissional",
+    item2: "Credibilidade",
+    item3: "Marketing",
+  },
+  {
+    id: 2,
+    name: "Site Startup",
+    description: "O Site Startup Classe B é a escolha ideal para empreendedores e empresas em crescimento. Além de conter todas as informações relevantes sobre sua empresa, ele apresenta detalhes sobre seus produtos e serviços, acompanhados de fotos profissionais que transmitem credibilidade e profissionalismo.",
+    item1: "Moderno",
+    item2: "Digital",
+    item3: "Inovador",
+>>>>>>> 26e5f6db79bbe7b4e6957956ace3fc3202771447
   },
   {
     id: 3,
     name: "Portal na web",
+<<<<<<< HEAD
     description: "O Portal na Web Classe A é a solução completa para empresas de alto nível que desejam se destacar no mundo digital. Fazemos atualizaçoes diárias se necessário.",
     valor: 50,
     item1:"Performance",
     item2:"Atualizações diárias",
     item3:"Responsividade",
     
+=======
+    description: "O Portal na Web Classe A é a solução completa para empresas de alto nível que desejam se destacar no mundo digital. Com informações detalhadas sobre a empresa, produtos e serviços, acompanhadas de imagens cuidadosamente capturadas por profissionais, esse site oferece uma experiência de navegação completa e envolvente.",
+    item1: "Amplo",
+    item2: "Performance",
+    item3: "Finesse",
+>>>>>>> 26e5f6db79bbe7b4e6957956ace3fc3202771447
   }
 
   
