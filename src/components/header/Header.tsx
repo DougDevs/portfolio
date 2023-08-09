@@ -33,18 +33,13 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a className="a" href="#products">
-              SITES
-            </a>
-          </li>
-          {/* <li>
-            <a className="a" href="#service">
-              SERVIÇOS
-            </a>
-          </li> */}
-          <li>
             <a className="a" href="#work">
               TRABALHO
+            </a>
+          </li>
+          <li>
+            <a className="a" href="#products">
+              SITES
             </a>
           </li>
           <li>

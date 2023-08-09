@@ -35,13 +35,7 @@ export const apiProducts = [
     description: " Portal na Web Classe A é a solução completa para empresas de alto nível que desejam conquistar seu espaço no mundo digital.",
   },
 ];
-export const apiServices = [
-{
-    id: 1,
-    name:"Somos uma Empresa Profissional em Desenvolver Sites",
-    description: "Oferecemos serviços especializados em desenvolvimento de sites de alta qualidade e desempenho para empresas de todos os segmentos.",
-  }
-];
+
 export const apiPricing = [
  
   {

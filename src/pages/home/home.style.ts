@@ -4,7 +4,7 @@ import ImgSmartphone from "../../img/smartphone.jpg";
 
 export const HomeContainer = styled.div`
 #work {
-  scroll-margin-top: 110px;
+  scroll-margin-top: 300px;
 }
 .divImgBackgroud {
   background: url(${Img}) center center no-repeat;

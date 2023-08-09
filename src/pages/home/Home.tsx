@@ -20,7 +20,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <Products />
+     
       <S.Section>
         <div className="sSectionDiv1">
           <img
@@ -47,6 +47,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <Products />
       <Pricing />
       <Gallery/>
       <Contact />
