@@ -1,6 +1,6 @@
 import Header from "../../components/header/Header";
 import Products from "../../components/products/Products";
-import Services from "../../components/service/Services";
+// import Services from "../../components/service/Services";
 import Pricing from "../../components/pricing/Pricing";
 import Contact from "../../components/contact/Contact";
 import * as S from "./home.style";
@@ -37,7 +37,7 @@ export default function Home() {
           />
         </div>
       </S.Section>
-      <Services />
+      {/* <Services /> */}
       <div id="work" className="divMidPage">
         <div className="divMidPageText">
           <h2 className="h2MidPage">Desenvolvemos sites exclusivos para sua empresa</h2>

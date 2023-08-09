@@ -6,6 +6,7 @@ export const Gallery = styled.div`
   gap: 20px;
   justify-items: center;
   margin-top: 40px;
+  
 
   @media (max-width: 767px) {
     grid-template-columns: 1fr; /* Apenas um item por linha no celular */
@@ -22,6 +23,7 @@ export const H1Title = styled.h1`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto */
   text-align: center;
   margin-top: 70px;
+  scroll-margin-top: 125px;
   
 `;
 

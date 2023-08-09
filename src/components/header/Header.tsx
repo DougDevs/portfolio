@@ -34,27 +34,27 @@ export default function Header() {
           </li>
           <li>
             <a className="a" href="#products">
-              PRODUTOS
+              SITES
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="a" href="#service">
               SERVIÇOS
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="a" href="#work">
               TRABALHO
             </a>
           </li>
           <li>
-            <a className="a" href="#portifolio">
-              PORTFOLIOS
+            <a className="a" href="#pricing">
+              PLANOS
             </a>
           </li>
           <li>
-            <a className="a" href="#pricing">
-              PLANOS
+            <a className="a" href="#portifolio">
+              PORTFOLIOS
             </a>
           </li>
           <li>

@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <S.Contact id="contact">
       <hr />
-      <h3>Entre em contato conosco</h3>
+      <h3>Entre em contato!</h3>
       <div className="divContact">
         <div>
           <BsWhatsapp className="icon" />

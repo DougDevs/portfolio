@@ -6,7 +6,7 @@ export default function Products() {
   return (
     <S.Products id="products">
       <div className="divTextProducts">
-        <h2 className="h2SProducts">Serviços mais procurados</h2>
+        <h2 className="h2SProducts">Sites mais vendidos</h2>
         <p className="pSProducts">
           Conheça os principais serviços para começar a engajar o público no seu negócio.
         </p>

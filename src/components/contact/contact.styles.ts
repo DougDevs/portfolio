@@ -3,17 +3,23 @@ import styled from "styled-components";
 export const Contact = styled.section`
   padding: 10px;
   margin-top: 50px;
+  
 
   hr {
     width: 100%;
   }
   h3 {
-    color: #515769;
-    margin: 15px 0 65px 0;
-    font-size: 40px;
+    font-family: "Lucida Consoles", monospace;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    color: #333; /* Cor escura */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto */
     text-align: center;
-    font-weight: 500;
-    line-height: 1.2;
+    margin: 70px;
+    scroll-margin-top: 120px;
+    white-space: nowrap;
+   
   }
 
   p span {

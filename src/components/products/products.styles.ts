@@ -2,12 +2,19 @@ import styled from "styled-components";
 
 export const Products = styled.section`
   width: 100%;
+  scroll-margin-top: 15px;
   .h2SProducts {
-    font-size: 30px;
-    font-weight: 700;
-    color: #515769;
-    line-height: 1.4;
-    margin: 0 0 15px;
+    font-family: "Lucida Consoles", monospace;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    color: #333; /* Cor escura */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto */
+    text-align: center;
+    margin-top: 70px;
+    scroll-margin-top: 120px;
+    
+    
   }
 
   .pSProducts {
@@ -15,6 +22,7 @@ export const Products = styled.section`
     font-weight: 400;
     width: 60%;
     color: #a6a7aa;
+    
   }
 
   .divTextProducts {
@@ -28,6 +36,7 @@ export const Products = styled.section`
 
   .divProductsCard {
     display: flex;
+    
   }
 
   @media(max-width: 770px) {
@@ -47,6 +56,7 @@ export const ProductCard = styled.section`
   img {
     max-width: 100%;
     height: auto;
+    
   }
 
   h4 {
