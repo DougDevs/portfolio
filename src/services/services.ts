@@ -50,7 +50,7 @@ export const apiPricing = [
     name: "Site Startup",
     description: "O Site Startup Classe C é a escolha ideal para empreendedores e empresas em crescimento e que buscam reconhecimento. Fazemos atualizaçoes Mensais se necessário.",
     valor: 30,
-    item1:"Performance",
+    item1:"Acessível",
     item2:"Atualizações mensais",
     item3:"Responsividade",
     
