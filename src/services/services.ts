@@ -1,7 +1,7 @@
 import example1 from "../img/example1.jpg";
 import example2 from "../img/example2.jpg";
 import example3 from "../img/example3.jpg";
-import img1 from "../img/img1.jpg";
+import img1 from "../img/img1.png";
 import img2 from "../img/img2.png";
 import img3 from "../img/img3.png";
 import img4 from "../img/img4.png";
@@ -10,6 +10,7 @@ import img6 from "../img/img6.png";
 import img7 from "../img/img7.png";
 import img8 from "../img/img8.png";
 import img9 from "../img/img9.png";
+import img10 from "../img/img10.png";
 
 export const apiProducts = [
   {
@@ -127,6 +128,12 @@ export const apiGallery = [
     description: "Site apresentando venda de pizzas online",
     imageLink: img9,
     link: "landingmatrizthirteen"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando promoção de viagens",
+    imageLink: img10,
+    link: "landingmatrizfourteen"
   },
   
   

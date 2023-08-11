@@ -17,6 +17,7 @@ const GalleryItem: React.FC<GalleryItemProps> = ({
   return (
     
     <GalleryItemWrapper>
+      
       <div className="gallery-image">
         <img src={imageLink} alt={name} />
       </div>
@@ -24,7 +25,7 @@ const GalleryItem: React.FC<GalleryItemProps> = ({
         <h3>{name}</h3>
         <p>{description}</p>
         <a href={`https://${link}.vercel.app`} rel="noreferrer" target="_blank">Visitar</a>
-      </div>
+              </div>
     </GalleryItemWrapper>
   );
 };
