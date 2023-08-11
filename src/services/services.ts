@@ -11,6 +11,7 @@ import img7 from "../img/img7.png";
 import img8 from "../img/img8.png";
 import img9 from "../img/img9.png";
 import img10 from "../img/img10.png";
+import img11 from "../img/img11.png";
 
 export const apiProducts = [
   {
@@ -134,6 +135,12 @@ export const apiGallery = [
     description: "Site apresentando promoção de viagens",
     imageLink: img10,
     link: "landingmatrizfourteen"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando promoção de jogos",
+    imageLink: img11,
+    link: "landingmatriz"
   },
   
   
