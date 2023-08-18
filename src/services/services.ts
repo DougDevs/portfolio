@@ -13,6 +13,8 @@ import img9 from "../img/img9.png";
 import img10 from "../img/img10.png";
 import img11 from "../img/img11.png";
 import img12 from "../img/img12.png";
+import img13 from "../img/img13.png";
+import img14 from "../img/img14.png";
 
 export const apiProducts = [
   {
@@ -148,6 +150,18 @@ export const apiGallery = [
     description: "Site apresentando imobiliária",
     imageLink: img12,
     link: "landingmatrizfifteen"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando imobiliária",
+    imageLink: img13,
+    link: "landingmatrizsixteen"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando startup",
+    imageLink: img13,
+    link: "landingmatrizseventeen"
   },
   
   
