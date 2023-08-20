@@ -17,6 +17,14 @@ import img13 from "../img/img13.png";
 import img14 from "../img/img14.png";
 import img15 from "../img/img15.png";
 import img16 from "../img/img16.png";
+import img17 from "../img/img17.png";
+import img18 from "../img/img18.png";
+import img19 from "../img/img19.png";
+import img20 from "../img/img20.png";
+import img21 from "../img/img21.png";
+import img22 from "../img/img22.png";
+import img23 from "../img/img23.png";
+
 
 export const apiProducts = [
   {
@@ -177,8 +185,48 @@ export const apiGallery = [
     imageLink: img16,
     link: "landingmatriznineteen"
   },
-  
-  
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img17,
+    link: "landingmatriztwenty"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img18,
+    link: "landingmatriztwentyone"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img19,
+    link: "landingmatriztwentytwo"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img20,
+    link: "landingmatriztwentythree"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img21,
+    link: "landingmatriztwentyfour"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img22,
+    link: "landingmatrizfive"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img23,
+    link: "landingmatriztwentysix"
+  },
 ];
 
 
