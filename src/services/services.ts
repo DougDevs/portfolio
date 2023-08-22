@@ -24,6 +24,24 @@ import img20 from "../img/img20.png";
 import img21 from "../img/img21.png";
 import img22 from "../img/img22.png";
 import img23 from "../img/img23.png";
+import img24 from "../img/img24.png";
+import img25 from "../img/img25.png";
+import img26 from "../img/img26.png";
+import img27 from "../img/img27.png";
+import img28 from "../img/img28.png";
+import img29 from "../img/img29.png";
+import img30 from "../img/img30.png";
+import img31 from "../img/img31.png";
+import img32 from "../img/img32.png";
+import img33 from "../img/img33.png";
+import img34 from "../img/img34.png";
+import img35 from "../img/img35.png";
+import img36 from "../img/img36.png";
+import img37 from "../img/img37.png";
+import img38 from "../img/imm38.png";
+import img39 from "../img/img39.png";
+import img40 from "../img/img40.png";
+
 
 
 export const apiProducts = [
@@ -226,6 +244,108 @@ export const apiGallery = [
     description: "Site apresentando empresa",
     imageLink: img23,
     link: "landingmatriztwentysix"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img24,
+    link: "landingmatriztwentyseven"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img40,
+    link: "landingmatriztwentyeight"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img39,
+    link: "landingmatriztwentynine"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img38,
+    link: "landingmatrizthirty"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img37,
+    link: "landingmatrizthirtyone"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img36,
+    link: "landingmatrizthirtytwo"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img35,
+    link: "landingmatrizthirtythree"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img34,
+    link: "landingmatrizthirtyfour"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img33,
+    link: "landingmatrizthirtyfive"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img32,
+    link: "landingmatrizthirtysix"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img31,
+    link: "landingmatrizthirtyseven"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img30,
+    link: "landingmatrizthirtyeight"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img29,
+    link: "landingmatrizthirtynine"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img28,
+    link: "landingmatrizforty"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img27,
+    link: "landingmatrizfortyone"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img26,
+    link: "landingmatrizfortytwo"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img25,
+    link: "landingmatrizfortythre"
   },
 ];
 
