@@ -345,7 +345,7 @@ export const apiGallery = [
     name: "WebSite empresarial",
     description: "Site apresentando empresa",
     imageLink: img25,
-    link: "landingmatrizfortythre"
+    link: "landingmatrizfortythree"
   }
 ];
 
