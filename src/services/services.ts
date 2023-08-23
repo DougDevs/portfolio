@@ -38,7 +38,7 @@ import img34 from "../img/img34.png";
 import img35 from "../img/img35.png";
 import img36 from "../img/img36.png";
 import img37 from "../img/img37.png";
-import img38 from "../img/imm38.png";
+import img38 from "../img/img38.png";
 import img39 from "../img/img39.png";
 import img40 from "../img/img40.png";
 
