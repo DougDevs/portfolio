@@ -1,18 +1,18 @@
-import * as S from "./products.styles";
-import { apiProducts } from "../../services/services";
-import ProductCard from "./productCard";
+import * as S from "./service.styles";
+import { apiServices } from "../../services/services";
+import ProductCard from "./serviceCard";
 
 export default function Products() {
   return (
-    <S.Products id="products">
+    <S.Products id="services">
       <div className="divTextProducts">
-        <h2 className="h2SProducts">Sites mais vendidos</h2>
+        <h2 className="h2SProducts">Nossos Serviços</h2>
         <p className="pSProducts">
           Conheça os principais serviços para começar a engajar o público no seu negócio.
         </p>
       </div>
       <div className="divProductsCard">
-        {apiProducts.map((e) => (
+        {apiServices.map((e) => (
           <ProductCard
             key={e.id}
             id={e.id}

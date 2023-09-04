@@ -1,5 +1,5 @@
 
-import { GalleryItemWrapper } from "./gallery.styles";
+import { GalleryItemWrapper } from "./portfolio1.styles";
 
 interface GalleryItemProps {
   name: string;

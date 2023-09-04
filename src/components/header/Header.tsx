@@ -34,17 +34,12 @@ export default function Header() {
           </li>
           <li>
             <a className="a" href="#work">
-              TRABALHO
+              SOBRE
             </a>
           </li>
           <li>
-            <a className="a" href="#products">
-              SITES
-            </a>
-          </li>
-          <li>
-            <a className="a" href="#pricing">
-              PLANOS
+            <a className="a" href="#services">
+              SERVIÇOS
             </a>
           </li>
           <li>
@@ -52,6 +47,12 @@ export default function Header() {
               PORTFOLIOS
             </a>
           </li>
+          <li>
+            <a className="a" href="#pricing">
+              PLANOS
+            </a>
+          </li>
+          
           <li>
             <a className="a" href="#contact">
               CONTATO

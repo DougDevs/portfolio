@@ -4,7 +4,7 @@ import ImgSmartphone from "../../img/smartphone.jpg";
 
 export const HomeContainer = styled.div`
 #work {
-  scroll-margin-top: 300px;
+  scroll-margin-top: 86px;
 }
 .divImgBackgroud {
   background: url(${Img}) center center no-repeat;
@@ -32,7 +32,7 @@ export const HomeContainer = styled.div`
 .titleHome {
   border: black;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
   color: white;
   text-shadow: 3px 3px 4px rgba(0,0,0,0.71);
 }
@@ -68,7 +68,8 @@ export const HomeContainer = styled.div`
 }
 
 .h2MidPage {
-  font-size: 50px;
+  font-size: 40px;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
   color: #fff;
   font-weight: 700;
   line-height: 1.4;

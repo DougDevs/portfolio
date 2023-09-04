@@ -1,12 +1,10 @@
 import Header from "../../components/header/Header";
-import Products from "../../components/products/Products";
+import Service from "../../components/services/Service";
 // import Services from "../../components/service/Services";
-import Pricing from "../../components/pricing/Pricing";
-import Contact from "../../components/contact/Contact";
+import Planos from "../../components/planos/Planos";
+import Footer from "../../components/contact/Contact";
 import * as S from "./home.style";
-import desktop1 from "../../img/desktop1.jpg";
-import desktop2 from "../../img/desktop2.jpg";
-import Gallery from "../../components/gallery/gallery";
+import Portfolio1 from "../../components/portfolios/portfolio1";
 
 export default function Home() {
   return (
@@ -14,48 +12,37 @@ export default function Home() {
       <Header />
       <div id="home" className="divImgBackgroud">
         <div className="divTitleHome">
-          <h1 className="titleHome">Agência de sites</h1>
+          <h1 className="titleHome">SC DataLink</h1>
+          <h2 className="titleHome">Soluções digitais para sua empresa</h2>
           <p className="pHome">
-            Levar sua empresa mais longe não é complicado.
+            Nossa empresa elevando a sua.
           </p>
         </div>
       </div>
-     
-      <S.Section>
-        <div className="sSectionDiv1">
-          <img
-            className="sSectionImg1"
-            alt="imagem de um computador ligado"
-            src={desktop1}
-          />
-        </div>
-        <div className="sSectionDiv2">
-          <img
-            className="sSectionImg2"
-            alt="imagem de um computador ligado"
-            src={desktop2}
-          />
-        </div>
-      </S.Section>
+      
+    
       {/* <Services /> */}
       <div id="work" className="divMidPage">
         <div className="divMidPageText">
-          <h2 className="h2MidPage">Desenvolvemos sites exclusivos para sua empresa</h2>
+          <h2 className="h2MidPage">Somos uma empresa capacitada em digitalizar a sua empresa e deixa-la mais moderna</h2>
           <p className="pMidPage">
-            Tenha um site para sua empresa e alcance novos horizontes
-            tenha mais credibilidade e nome no mercado!
           </p>
         </div>
       </div>
-      <Products />
-      <Pricing />
-      <Gallery/>
-      <Contact />
+      <div id="work" className="divMidPage">
+        <div className="divMidPageText">
+          <h2 className="h2MidPage">loren ipsun is dolor loren is loren is loren ipsun is dolor</h2>
+          <p className="pMidPage">
+          </p>
+        </div>
+      </div>
+      <Service />
+      <Portfolio1/>
+      <Planos />
+      <Footer />
       <S.Footer>
         <p>
-          {`Desenvolvido por `}
           <span>SC DataLink</span>
-          {` © 2023`}
         </p>
       </S.Footer>
     </S.HomeContainer>

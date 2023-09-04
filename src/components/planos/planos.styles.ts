@@ -126,7 +126,6 @@ export const Bullet = styled.div`
 
 
 export const H1Title = styled.h1`
-  
   font-family: "Lucida Consoles", monospace;
   font-size: 36px;
   letter-spacing: 1px;

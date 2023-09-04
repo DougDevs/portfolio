@@ -1,4 +1,4 @@
-import * as S from "./products.styles";
+import * as S from "./service.styles";
 
 interface Props {
   id: number;

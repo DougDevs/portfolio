@@ -1,7 +1,7 @@
-import * as S from "./pricing.styles";
-import PriceCard from "./PriceCard";
-import { apiPricing } from "../../services/services";
-import { H1Title } from "./pricing.styles";
+import * as S from "./planos.styles";
+import PriceCard from "./PlanosCard";
+import { apiPlanos } from "../../services/services";
+import { H1Title } from "./planos.styles";
 
 export default function Pricing() {
   return (
@@ -9,7 +9,7 @@ export default function Pricing() {
     <H1Title id="planos">Planos</H1Title>
     <S.Pricing id="pricing">
       <div className="divApiPricing">
-        {apiPricing.map((e) => (
+        {apiPlanos.map((e) => (
           <PriceCard
             id={e.id}
             name={e.name}

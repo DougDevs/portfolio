@@ -1,5 +1,51 @@
 import styled from "styled-components";
 
+export const Button = styled.button`
+
+  --color: #0077ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+
+
+:before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+:hover {
+  color: white;
+}
+
+:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+
+;`
+
 export const Gallery = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -7,10 +53,13 @@ export const Gallery = styled.div`
   justify-items: center;
   margin-top: 40px;
   
+  
 
   @media (max-width: 767px) {
     grid-template-columns: 1fr; /* Apenas um item por linha no celular */
   }
+  
+  
 `;
 
 export const H1Title = styled.h1`
@@ -35,8 +84,7 @@ export const GalleryItemWrapper = styled.div`
   margin: 5px;
   max-width: 300px;
   
- 
-
+  
   .gallery-image img {
     width: 100%;
     height: auto;

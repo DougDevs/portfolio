@@ -1,4 +1,4 @@
-import * as S from "./pricing.styles";
+import * as S from "./planos.styles";
 
 interface Props {
   id: number;

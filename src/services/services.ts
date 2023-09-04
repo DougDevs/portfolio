@@ -44,32 +44,31 @@ import img40 from "../img/img40.png";
 
 
 
-export const apiProducts = [
+export const apiServices = [
   {
     id: 1,
     img: example2,
-    name: "Site Startup",
-    tag: "Classe C",
+    name: "WebSite empresarial",
+    tag: "loren",
     description: "Site Startup é a escolha ideal para empreendedores e empresas em crescimento.",
   },
   {
     id: 2,
     img: example1,
-    name: "Web Site",
+    name: "WebSite personal",
     tag: "Classe B",
-    description:"O Web Site é a opção perfeita para empresas e negócios que desejam uma presença online básica, mas efetiva.",
+    description:"O WebSite personal é a opção perfeita para empreendedores que querem mostrar seus serviços para o mundo.",
   },
   
   {
     id: 3,
     img: example3,
-    name: "Portal na Web",
+    name: "Identidade visual",
     tag: "Classe A",
-    description: " Portal na Web Classe A é a solução completa para empresas de alto nível que desejam conquistar seu espaço no mundo digital.",
+    description: "Tenha uma identidade visual feita por profissionais. Mostre sua marca para o mundo.",
   },
 ];
-
-export const apiPricing = [
+export const apiPlanos = [
  
   {
     id: 1,
@@ -106,7 +105,7 @@ export const apiPricing = [
 
   
 ];
-export const apiGallery = [ 
+export const apiPortfolio1 = [ 
   {
     name: "WebSite empresarial",
     description: "WebSite apresentando empresa",

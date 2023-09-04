@@ -13,8 +13,6 @@ export const Products = styled.section`
     text-align: center;
     margin-top: 70px;
     scroll-margin-top: 120px;
-    
-    
   }
 
   .pSProducts {
@@ -56,7 +54,7 @@ export const ProductCard = styled.section`
   img {
     max-width: 100%;
     height: auto;
-    
+    border-radius: 40px 40px 40px 40px;
   }
 
   h4 {
@@ -93,7 +91,7 @@ export const ProductCard = styled.section`
     color: #515769;
     background: #f3f4f5;
     border-color: transparent;
-    border-width: 0;
+    border-radius: 10px 10px 10px 10px;
   }
   
   .readMore:hover {
