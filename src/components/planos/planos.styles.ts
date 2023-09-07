@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Pricing = styled.div`
-  background-color: #fafafa;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,10 @@ export const Pricing = styled.div`
   .divApiPricing {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between; /* Distribuir o espaço horizontalmente */
     margin: 0 auto;
+    max-width: 2000px; /* Ajuste a largura máxima conforme necessário */
+    padding: 0 50px; /* Adicione algum espaçamento lateral, se necessário */
   }
 
   @media (max-width: 770px) {
@@ -28,20 +30,18 @@ export const PriceCard = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 300px;
+  width: 340px;
   height: 450px;
   padding: 20px 1px;
   margin: 30px 30px;
   text-align: center;
   position: relative;
   cursor: pointer;
-  box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4), 0 4px 6px -4px rgba(33, 150, 243, 0.4);
   border-radius: 10px;
   background-color: #6B6ECC;
   background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
-  
 }
-
 .content {
   padding: 20px;
 }
@@ -49,8 +49,9 @@ export const PriceCard = styled.div`
 .content .price {
   color: white;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+ 
 }
 
 .content .description {

@@ -16,7 +16,7 @@ export const HeaderMenu = styled.header<Props>`
   transition-timing-function: cubic-bezier(.7,1,.7,1);
 
 @media(max-width: 930px) {
-  background: white;
+  background: #def0ff;
   .nav-list {
     display: none !important;
   }
@@ -91,7 +91,7 @@ span {
 }
 
 ${({ isVisible }) => isVisible && css`
-    background-color: white;
+    background-color: #def0ff;
     .a {
       color: #515769;
       text-shadow: none;

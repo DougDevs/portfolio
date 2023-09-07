@@ -4,7 +4,7 @@ interface Props {
   id: number;
   name: string;
   description: string;
-  valor: number;
+  valor: string;
   item1: string;
   item2: string;
   item3: string;
@@ -16,7 +16,7 @@ export default function PriceCard(props: Props) {
       <div className="card">
         <div className="content">
           <div className="title">{`${props.name} `}</div>
-          <div className="price">${`${props.valor} `}/Mês</div>
+          <div className="price">${`${props.valor} `}</div>
           <div className="description">{props.description}</div>
           <S.StyledList>
             <S.ListItem>

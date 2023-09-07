@@ -6,7 +6,7 @@ interface Props {
 
 export const Container = styled.section<Props>`
   display: none;
-  background-color: white;
+  background-color: #def0ff;
 
 
   ${({ isVisible }) => isVisible && css`

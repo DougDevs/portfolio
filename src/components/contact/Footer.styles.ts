@@ -11,12 +11,14 @@ align-items: center;
 `;
 
 export const Resumo = styled.footer`
-  color: fafafa; 
+  color: white; 
   margin: 0 auto;
   width: 200px; 
   text-align: center;
-
-  
+  p {
+    white-space: nowrap;
+  }
+ 
   .litc {
     font-family: Hind,sans-serif;
     color: #fff;
@@ -233,7 +235,8 @@ export const H1Title = styled.h1`
   color: #333; /* Cor escura */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto */
   text-align: center;
-  margin-top: 70px;
+
+  height: 100px;
   
 `;
 

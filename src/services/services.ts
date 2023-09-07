@@ -41,8 +41,20 @@ import img37 from "../img/img37.png";
 import img38 from "../img/img38.png";
 import img39 from "../img/img39.png";
 import img40 from "../img/img40.png";
-
-
+import img41 from "../img/img41.png";
+import img42 from "../img/img42.png";
+import img43 from "../img/img43.png";
+import img44 from "../img/img44.png";
+import img45 from "../img/img45.png";
+import img46 from "../img/img46.png";
+import braimportz from "../img/@braimportz.png";
+import chefin_griffe from "../img/@chefin_griffe.png";
+import deliciass_dakau from "../img/@deliciass_dakau.png";
+import paradizzomoveis from "../img/@paradizzomoveis.png";
+import personaltrainer_leguimaraes from "../img/@personaltrainer_leguimaraes.png"
+import petra_comunidadecrista from "../img/@Petra_comunidadecrista.png"
+import street_barbershoop from "../img/Street_barbershoop.png"
+import projetec_engcivil from "../img/@projetec_engcivil.png"
 
 export const apiServices = [
   {
@@ -72,40 +84,80 @@ export const apiPlanos = [
  
   {
     id: 1,
-
     name: "Site Startup",
-    description: "O Site Startup Classe C é a escolha ideal para empreendedores e empresas em crescimento e que buscam reconhecimento. Fazemos atualizaçoes Mensais se necessário.",
-    valor: 30,
-    item1:"Acessível",
-    item2:"Atualizações mensais",
-    item3:"Responsividade",
-    
+    description: "O Site Startup Classe C é a escolha ideal para empreendedores e empresas em crescimento e que buscam reconhecimento. Conta com 1 atualização semanal.",
+    valor: "87/Mês",
+    item1:"1 Atualização por semana",
+    item2:"Básico",
+    item3:"imagens",
   },
   {
     id: 2,
     name: "Web Site",
-    description: " O Web Site Classe B é a opção perfeita para empresas e negócios que desejam uma presença online intermediária e moderna. Fazemos atualizaçoes Semanais se necessário.",
-    valor: 40,
-    item1:"Moderno",
-    item2:"Atualizações semanais",
-    item3:"Responsividade",
-    
+    description: " O Web Site Classe B é a opção perfeita para empresas e negócios que desejam uma presença online intermediária e moderna. Conta com 3 atualizações semanais.",
+    valor: "97/Mês",
+    item1:"3 Atualizações por semana",
+    item2:"Intermediário",
+    item3:"Imagens ",
   },
-  
   {
     id: 3,
     name: "Portal na web",
-    description: "O Portal na Web Classe A é a solução completa para empresas de alto nível que desejam se destacar no mundo digital. Fazemos atualizaçoes diárias se necessário.",
-    valor: 50,
-    item1:"Performance",
-    item2:"Atualizações diárias",
-    item3:"Responsividade",
-
+    description: "O Portal na Web Classe A é a solução completa para empresas de alto nível que desejam se destacar no mundo digital. Conta com atualizações diárias.",
+    valor: "157/Mês",
+    item1:"Atualizações diárias",
+    item2:"Avançado",
+    item3:"Galeria de fotos",
+  },
+  {
+    id: 4,
+    name: "Criação de identidade visual",
+    description: "Destaque sua marca com a nossa expertise em identidade visual. Criamos logotipos e elementos únicos para definir a personalidade da sua empresa, deixando uma impressão memorável.",
+    valor: "229",
+    item1:"Paleta de Cores",
+    item2:"Tipografia",
+    item3:"Elegância",
   }
 
   
 ];
 export const apiPortfolio1 = [ 
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img30,
+    link: "landingmatrizthirtyeight"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img29,
+    link: "landingmatrizthirtynine"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img28,
+    link: "landingmatrizforty"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img27,
+    link: "landingmatrizfortyone"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img26,
+    link: "landingmatrizfortytwo"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img25,
+    link: "landingmatrizfortythree"
+  },
   {
     name: "WebSite empresarial",
     description: "WebSite apresentando empresa",
@@ -310,43 +362,90 @@ export const apiPortfolio1 = [
     imageLink: img31,
     link: "landingmatrizthirtyseven"
   },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando empresa",
-    imageLink: img30,
-    link: "landingmatrizthirtyeight"
-  },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando empresa",
-    imageLink: img29,
-    link: "landingmatrizthirtynine"
-  },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando empresa",
-    imageLink: img28,
-    link: "landingmatrizforty"
-  },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando empresa",
-    imageLink: img27,
-    link: "landingmatrizfortyone"
-  },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando empresa",
-    imageLink: img26,
-    link: "landingmatrizfortytwo"
-  },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando empresa",
-    imageLink: img25,
-    link: "landingmatrizfortythree"
-  }
+  
 ];
+export const apiPortfolio2 = [
+  {
+    name: "Empresa x",
+    imageLink: braimportz,
+    link: "braimportz"
+  },
+
+  {
+    name: "Empresa x",
+    imageLink: chefin_griffe,
+    link: "chefin_griffe"
+  },
+  {
+    name: "Empresa x",
+    imageLink: deliciass_dakau,
+    link: "deliciass_dakau"
+  },
+
+  {
+    name: "Empresa x",
+    imageLink: paradizzomoveis,
+    link: "paradizzomoveis"
+  },
+
+  {
+    name: "Empresa x",
+    imageLink:  personaltrainer_leguimaraes,
+    link: "personaltrainer_leguimaraes"
+  },
+  {
+    name: "Empresa x",
+    imageLink:   petra_comunidadecrista,
+    link: "petra_comunidadecrista"
+  },
+  {
+    name: "Empresa x",
+    imageLink:  street_barbershoop,
+    link: "street_barbershoop"
+  },
+  {
+    name: "Empresa x",
+    imageLink: projetec_engcivil,
+    link: "projetec_engcivil"
+  },
 
 
+];
+export const apiPortfolio3 = [ 
+  {
+    name: "WebSite personal",
+    description: "Site personal",
+    imageLink: img41,
+    link: "personalmatrizone"
+  },{
+    name: "WebSite personal",
+    description: "Site personal",
+    imageLink: img42,
+    link: "personalmatriztwo"
+  },
+  {
+    name: "WebSite personal",
+    description: "Site personal",
+    imageLink: img43,
+    link: "personalmatrizthree"
+  },
+  {
+    name: "WebSite personal",
+    description: "Site personal",
+    imageLink: img44,
+    link: "personalmatrizfour"
+  },
+  {
+    name: "WebSite personal",
+    description: "Site personal",
+    imageLink: img45,
+    link: "personalmatrizfive"
+  },
+  {
+    name: "WebSite personal",
+    description: "Site personal",
+    imageLink: img46,
+    link: "personalmatrizsix"
+  },
+];
 

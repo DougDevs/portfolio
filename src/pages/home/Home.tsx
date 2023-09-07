@@ -4,7 +4,11 @@ import Service from "../../components/services/Service";
 import Planos from "../../components/planos/Planos";
 import Footer from "../../components/contact/Contact";
 import * as S from "./home.style";
-import Portfolio1 from "../../components/portfolios/portfolio1";
+import Sites from "../../components/portfolios/sites/portfolio1";
+import SPersonal from "../../components/portfolios/sitepersonal/portfolio3";
+import Identidade from "../../components/portfolios/identidade/portfolio2";
+
+
 
 export default function Home() {
   return (
@@ -23,26 +27,24 @@ export default function Home() {
     
       {/* <Services /> */}
       <div id="work" className="divMidPage">
-        <div className="divMidPageText">
-          <h2 className="h2MidPage">Somos uma empresa capacitada em digitalizar a sua empresa e deixa-la mais moderna</h2>
-          <p className="pMidPage">
-          </p>
+        <div className="divtext">
+          <h2 className="h2t">Somos profissionais em:</h2>
+          <h2 className="h2t">WebSites; Identidade visual; Social Media; Tráfego pago</h2>
         </div>
       </div>
-      <div id="work" className="divMidPage">
-        <div className="divMidPageText">
-          <h2 className="h2MidPage">loren ipsun is dolor loren is loren is loren ipsun is dolor</h2>
-          <p className="pMidPage">
-          </p>
-        </div>
-      </div>
+  
       <Service />
-      <Portfolio1/>
+      
+      <Sites/>
+      <SPersonal/>
+      <Identidade/>
       <Planos />
+
       <Footer />
       <S.Footer>
         <p>
-          <span>SC DataLink</span>
+          <span>SC DataLink - Studio Hyper</span> <br />
+          <span>Douglas Terleski - Desenvolvedor,    Wanderley Valim - Designer</span>
         </p>
       </S.Footer>
     </S.HomeContainer>

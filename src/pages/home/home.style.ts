@@ -50,6 +50,8 @@ export const HomeContainer = styled.div`
 
 .divMidPage {
   display: flex;
+  justify-content: center;
+  align-items: center; /* Adicione esta linha para centralizar verticalmente */
   position: relative;
   z-index: 1;
   background: url(${ImgSmartphone}) center center no-repeat fixed;
@@ -57,44 +59,31 @@ export const HomeContainer = styled.div`
   min-height: 100%;
   height: 384px;
 }
-
-.divMidPageText {
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  background: rgba(81,87,105,.4);
-  height: 100%;
-  text-align: center;
+.divtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta a altura para ocupar toda a altura da tela (viewport) */
 }
 
-.h2MidPage {
+.h2t {
   font-size: 40px;
-  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-  color: #fff;
-  font-weight: 700;
-  line-height: 1.4;
-  text-align: center;
-  margin-top: 100px;
+  font-weight: bold;
+  font-family: monospace;
+  color: white;
+  margin: 10px 0;
+  text-align: center; /* Centraliza o texto horizontalmente */
 }
 
-.pMidPage {
-  font-size: 20px;
-  color: #fff;
-  opacity: .8;
-  font-weight: 400;
-  margin-top: 15px;
-}
-
-@media(max-width: 770px) {
-  .divMidPage {
-    justify-content: center;
-  }
-
-  .h2MidPage {
-    margin-top: 15px;
-    font-size: 35px;
+/* Media query para tornar o texto responsivo em telas menores */
+@media (max-width: 768px) {
+  .h2t {
+    font-size: 25px; /* Ajuste o tamanho da fonte para telas menores, se necessário */
   }
 }
+
+
 `;
 
 export const Section = styled.section`
@@ -132,12 +121,12 @@ export const Div = styled.div`
 
 export const Footer = styled.footer`
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #333;
   margin-top: 10px;
 
   p {
     padding: 10px;
-    color: #444;
+    color: #999;
     font-size: 14px;
   }
 

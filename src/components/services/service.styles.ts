@@ -13,6 +13,7 @@ export const Products = styled.section`
     text-align: center;
     margin-top: 70px;
     scroll-margin-top: 120px;
+    background:
   }
 
   .pSProducts {

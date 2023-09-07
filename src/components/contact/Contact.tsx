@@ -8,8 +8,9 @@ const Footer: React.FC = () => {
       <S.Resumo>
         <h1>SC DataLink</h1>
         <p>Três Barras SC</p>
-        <p>nº 69</p>
-        <p>Rua das palmeiras.</p>
+        <p>João Paulo II</p>
+        <p>Rua Simão Pacheco Guimarães.</p>
+        <p>Nº656</p>
       </S.Resumo>
       <S.Contact>
         <div className="card">
@@ -35,7 +36,7 @@ const Footer: React.FC = () => {
           <div className="card__body">
             
           </div>
-          <a href='https://www.whatsapp.com'>Contatar</a>
+          <a href='https://wa.me/5547999516182'>Contatar</a>
         </div>
         {/* <div className="cardg">
           <div className="icon">
