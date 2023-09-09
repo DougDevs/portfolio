@@ -10,17 +10,22 @@ export const Pricing = styled.div`
   .divApiPricing {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between; /* Distribuir o espaço horizontalmente */
     margin: 0 auto;
     max-width: 2000px; /* Ajuste a largura máxima conforme necessário */
-    padding: 0 50px; /* Adicione algum espaçamento lateral, se necessário */
+    padding: 0 40px; /* Adicione algum espaçamento lateral, se necessário */
   }
 
   @media (max-width: 770px) {
     height: auto;
-    padding: 20px;
+    margin-right: 0; /* Adicione esta linha para remover qualquer margem direita */
+    
     .divApiPricing {
-    display: block;
+      display: block;
+      margin-right: 0; /* Adicione esta linha para remover qualquer margem direita */
+      padding: 0 17px; /* Adicione algum espaçamento lateral para dispositivos menores, se necessário */
+      align-items: center;
     }
   }
 `;
@@ -30,9 +35,9 @@ export const PriceCard = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 340px;
+  width: 350px;
   height: 450px;
-  padding: 20px 1px;
+  padding: 10px 1px;
   margin: 30px 30px;
   text-align: center;
   position: relative;
@@ -43,7 +48,7 @@ export const PriceCard = styled.div`
   background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
 }
 .content {
-  padding: 20px;
+  padding: 0px;
 }
 
 .content .price {
