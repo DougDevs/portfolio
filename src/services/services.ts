@@ -47,6 +47,11 @@ import img43 from "../img/img43.png";
 import img44 from "../img/img44.png";
 import img45 from "../img/img45.png";
 import img46 from "../img/img46.png";
+import img47 from "../img/img47.png";
+import img48 from "../img/img48.png";
+import img49 from "../img/img49.png";
+
+
 import braimportz from "../img/@braimportz.png";
 import chefin_griffe from "../img/@chefin_griffe.png";
 import deliciass_dakau from "../img/@deliciass_dakau.png";
@@ -448,4 +453,23 @@ export const apiPortfolio3 = [
     link: "personalmatrizsix"
   },
 ];
-
+export const apiPortfolio4 = [ 
+  {
+    name: "WebSite de restaurante",
+    description: "Site apresentando restaurante",
+    imageLink: img49,
+    link: "landingmatrizfortyfour"
+  },{
+    name: "WebSite de restaurante",
+    description: "Site apresentando restaurante",
+    imageLink: img48,
+    link: "landingmatrizfortyfive"
+  },
+  {
+    name: "WebSite de restaurante",
+    description: "Site apresentando restaurante",
+    imageLink: img47,
+    link: "landingmatrizfortyfsix"
+  },
+  
+];

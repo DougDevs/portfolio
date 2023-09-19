@@ -7,6 +7,7 @@ import * as S from "./home.style";
 import Sites from "../../components/portfolios/sites/portfolio1";
 import SPersonal from "../../components/portfolios/sitepersonal/portfolio3";
 import Identidade from "../../components/portfolios/identidade/portfolio2";
+import Restaurante from "../../components/portfolios/siterestaurante/portfolio4";
 
 
 
@@ -36,7 +37,9 @@ export default function Home() {
       <Service />
       
       <Sites/>
+      <Restaurante/>
       <SPersonal/>
+      
       <Identidade/>
       <Planos />
 

@@ -34,7 +34,7 @@ const GalleryComponent: React.FC = () => {
   return (
     <>
       <H1Title id="portifolio">Portfolios</H1Title>
-      <H2Title>Sites</H2Title>
+      <H2Title>Sites empresariais</H2Title>
 
       <Gallery id="gallery">
         {apiPortfolio1.slice(0, visibleCards).map((item, index) => (
