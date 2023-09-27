@@ -4,14 +4,16 @@ import Service from "../../components/services/Service";
 import Planos from "../../components/planos/Planos";
 import Footer from "../../components/contact/Contact";
 import * as S from "./home.style";
-import Sites from "../../components/portfolios/sites/portfolio1";
+import Sitespadrao from "../../components/portfolios/sites/portfolio1";
 import SPersonal from "../../components/portfolios/sitepersonal/portfolio3";
 import Identidade from "../../components/portfolios/identidade/portfolio2";
 import Restaurante from "../../components/portfolios/siterestaurante/portfolio4";
+import Sitesconstrutora from "../../components/portfolios/siteconstrucao/portfolio5";
+import Sitefotografia from "../../components/portfolios/sitefotografo/portfolio6";
+import Siteimobiliaria from "../../components/portfolios/siteimobiliaria/portfolio7";
 
 
-
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <S.HomeContainer>
       <Header />
@@ -36,10 +38,12 @@ export default function Home() {
   
       <Service />
       
-      <Sites/>
+      <Sitespadrao/>
       <Restaurante/>
+      <Sitesconstrutora/>
+      <Sitefotografia/>
       <SPersonal/>
-      
+      <Siteimobiliaria/>
       <Identidade/>
       <Planos />
 

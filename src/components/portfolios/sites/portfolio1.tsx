@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Gallery } from "./portfolio1.styles";
 import GalleryItem from "./portfolioitem1";
-import { apiPortfolio1 } from "../../../services/services";
+import { apiPortfolio1 } from "../../../dados/services";
 import { H1Title } from "./portfolio1.styles";
 import { H2Title } from "./portfolio1.styles";
 import { Button } from "./portfolio1.styles";

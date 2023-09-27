@@ -1,5 +1,5 @@
 import * as S from "./service.styles";
-import { apiServices } from "../../services/services";
+import { apiServices } from "../../dados/services";
 import ProductCard from "./serviceCard";
 
 export default function Products() {

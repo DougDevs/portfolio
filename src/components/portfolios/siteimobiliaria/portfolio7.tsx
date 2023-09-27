@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { Gallery } from "./portfolio2.styles";
-import GalleryItem from "./portfolioitem2";
-import { apiPortfolio2 } from "../../../dados/services";
-import { H1Title } from "./portfolio2.styles";
-import { Button } from "./portfolio2.styles";
+import { Gallery } from "./portfolio7styles";
+import GalleryItem from "./portfolioitem7";
+import { apiPortfolio7 } from "../../../dados/services";
+// import { H1Title } from "./portfolio4.styles";
+import { H2Title } from "./portfolio7styles";
+import { Button } from "./portfolio7styles";
 
 const GalleryComponent: React.FC = () => {
   const [visibleCards, setVisibleCards] = useState(4);
@@ -28,18 +29,18 @@ const GalleryComponent: React.FC = () => {
   };
 
   // Determine se há mais itens para mostrar
-  const hasMoreItems = visibleCards < apiPortfolio2.length;
+  const hasMoreItems = visibleCards < apiPortfolio7.length;
 
   return (
     <>
-      <H1Title id="subtitulo">Identidade visual</H1Title>
+      <H2Title>Sites para imobiliarias</H2Title>
 
       <Gallery id="gallery">
-        {apiPortfolio2.slice(0, visibleCards).map((item, index) => (
+        {apiPortfolio7.slice(0, visibleCards).map((item, index) => (
           <GalleryItem
             key={index}
             name={item.name}
-            // description={item.description}
+            description={item.description}
             imageLink={item.imageLink}
             link={item.link}
           />

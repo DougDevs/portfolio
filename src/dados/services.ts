@@ -13,7 +13,7 @@ import img9 from "../img/img9.png";
 import img10 from "../img/img10.png";
 import img11 from "../img/img11.png";
 import img12 from "../img/img12.png";
-import img13 from "../img/img13.png";
+
 import img14 from "../img/img14.png";
 import img15 from "../img/img15.png";
 import img16 from "../img/img16.png";
@@ -50,6 +50,9 @@ import img46 from "../img/img46.png";
 import img47 from "../img/img47.png";
 import img48 from "../img/img48.png";
 import img49 from "../img/img49.png";
+import img50 from "../img/img50.png";
+import img51 from "../img/img51.png";
+import img52 from "../img/img52.png";
 
 
 import braimportz from "../img/@braimportz.png";
@@ -229,18 +232,7 @@ export const apiPortfolio1 = [
     imageLink: img11,
     link: "landingmatriz"
   },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando imobiliária",
-    imageLink: img12,
-    link: "landingmatrizfifteen"
-  },
-  {
-    name: "WebSite empresarial",
-    description: "Site apresentando imobiliária",
-    imageLink: img13,
-    link: "landingmatrizsixteen"
-  },
+  
   {
     name: "WebSite empresarial",
     description: "Site apresentando startup",
@@ -471,5 +463,34 @@ export const apiPortfolio4 = [
     imageLink: img47,
     link: "landingmatrizfortyfsix"
   },
-  
+];
+export const apiPortfolio5 = [ 
+  {
+    name: "WebSite de uma construtora",
+    description: "Site apresentando construtora",
+    imageLink: img50,
+    link: "landingmatrizfortyseven"
+  }
+];
+export const apiPortfolio6 = [ 
+  {
+    name: "WebSite de fotografia",
+    description: "Site apresentando empresa de fotografia",
+    imageLink: img51,
+    link: "landingmatrizfortyeight"
+  }
+];
+export const apiPortfolio7 = [ 
+  {
+    name: "WebSite de uma imobiliária",
+    description: "Site apresentando imobiliária",
+    imageLink: img12,
+    link: "landingmatrizfifteen"
+  },  
+  {
+    name: "WebSite de uma imobiliária",
+    description: "Site apresentando imobiliária",
+    imageLink: img52,
+    link: "landingmatrizsixteen"
+  },  
 ];

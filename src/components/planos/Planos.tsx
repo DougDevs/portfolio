@@ -1,6 +1,6 @@
 import * as S from "./planos.styles";
 import PriceCard from "./PlanosCard";
-import { apiPlanos } from "../../services/services";
+import { apiPlanos } from "../../dados/services";
 import { H1Title } from "./planos.styles";
 
 export default function Pricing() {
