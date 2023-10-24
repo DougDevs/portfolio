@@ -1,6 +1,3 @@
-import example1 from "../img/example1.jpg";
-import example2 from "../img/example2.jpg";
-import example3 from "../img/example3.jpg";
 import img1 from "../img/img1.png";
 import img2 from "../img/img2.png";
 import img3 from "../img/img3.png";
