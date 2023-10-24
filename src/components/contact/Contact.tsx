@@ -7,10 +7,8 @@ const Footer: React.FC = () => {
    <><H1Title id="contact">Contato</H1Title><S.Footer>
       <S.Resumo>
         <h1>SC DataLink</h1>
-        <p>Três Barras SC</p>
-        <p>João Paulo II</p>
-        <p>Rua Simão Pacheco Guimarães.</p>
-        <p>Nº656</p>
+        <p>Douglas R Terleski</p>
+        <p>Canoinhas SC</p>
       </S.Resumo>
       <S.Contact>
         <div className="card">
@@ -24,7 +22,7 @@ const Footer: React.FC = () => {
           <div className="card__body">
             
           </div>
-          <a href='https://www.instagram.com/valimsc'>Seguir</a>
+          <a href='https://www.instagram.com/terlesking'>Seguir</a>
         </div>
         <div className="cardw">
           <div className="icon">
@@ -38,35 +36,16 @@ const Footer: React.FC = () => {
           </div>
           <a href='https://wa.me/5547999516182'>Contatar</a>
         </div>
-        {/* <div className="cardg">
-          <div className="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 64 64">
-              <path d="M47 34.837V52h7.533C56.448 52 58 50.448 58 48.533V29.486L47 34.837zM47 32l11-7.333v-5.426c0-1.914-.812-3.781-2.325-4.953-2.336-1.809-5.515-1.673-7.665.151L47 15.232V32zM19.814 33.822L32 41 44.349 33.726 43.443 18.023 32 27 20.718 18.149zM17.153 32.102v-16.75L15.99 14.44c-2.15-1.823-5.329-1.961-7.664-.151C6.812 15.46 6 17.328 6 19.243v5.424L17.153 32.102zM6 29.486v19.047C6 50.448 7.552 52 9.467 52H17V34.837L6 29.486z"></path>
-            </svg>
-          </div>
-          <strong className='gmail'> Gmail
-          </strong>
-          <div className="card__body">
-            <h1>Contate no Gmail.</h1>
-          </div>
-          <a href='mailto:contato@scdatalink.com'>Contatar</a>
-        </div> */}
       </S.Contact>
       <S.Resumo>
         <ul>
-          <a className="litc" href="#services">
-            SERVIÇOS
-          </a>
+          <p className='litc'>SC DataLink</p>
         </ul>
         <ul>
-          <a className="litc" href="#portifolio">
-            PORTFOLIOS
-          </a>
+         <p className='litc'> Terleski</p>
         </ul>
         <ul>
-          <a className="litc" href="#pricing">
-            PLANOS
-          </a>
+          <p className='litc'> Sites</p>
         </ul>
       </S.Resumo>
     </S.Footer></>

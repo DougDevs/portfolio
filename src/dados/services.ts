@@ -53,88 +53,59 @@ import img49 from "../img/img49.png";
 import img50 from "../img/img50.png";
 import img51 from "../img/img51.png";
 import img52 from "../img/img52.png";
+import img53 from "../img/img53.png";
+import img54 from "../img/img54.png";
+import img55 from "../img/img55.png";
+import img56 from "../img/img56.png";
+import img57 from "../img/img57.png";
+import img58 from "../img/img58.png";
 
 
-import braimportz from "../img/@braimportz.png";
-import chefin_griffe from "../img/@chefin_griffe.png";
-import deliciass_dakau from "../img/@deliciass_dakau.png";
-import paradizzomoveis from "../img/@paradizzomoveis.png";
-import personaltrainer_leguimaraes from "../img/@personaltrainer_leguimaraes.png"
-import petra_comunidadecrista from "../img/@Petra_comunidadecrista.png"
-import street_barbershoop from "../img/Street_barbershoop.png"
-import projetec_engcivil from "../img/@projetec_engcivil.png"
 
-export const apiServices = [
-  {
-    id: 1,
-    img: example2,
-    name: "WebSite empresarial",
-    tag: "loren",
-    description: "Site Startup é a escolha ideal para empreendedores e empresas em crescimento.",
-  },
-  {
-    id: 2,
-    img: example1,
-    name: "WebSite personal",
-    tag: "Classe B",
-    description:"O WebSite personal é a opção perfeita para empreendedores que querem mostrar seus serviços para o mundo.",
-  },
-  
-  {
-    id: 3,
-    img: example3,
-    name: "Identidade visual",
-    tag: "Classe A",
-    description: "Tenha uma identidade visual feita por profissionais. Mostre sua marca para o mundo.",
-  },
-];
-export const apiPlanos = [
- 
-  {
-    id: 1,
-    name: "Site Startup",
-    description: "O Site Startup Classe C é a escolha ideal para empreendedores e empresas em crescimento e que buscam reconhecimento. Conta com 1 atualização semanal.",
-    valor: "87/Mês",
-    item1:"1 Atualização por semana",
-    item2:"Básico",
-    item3:"imagens",
-  },
-  {
-    id: 2,
-    name: "Web Site",
-    description: " O Web Site Classe B é a opção perfeita para empresas e negócios que desejam uma presença online intermediária e moderna. Conta com 3 atualizações semanais.",
-    valor: "97/Mês",
-    item1:"3 Atualizações por semana",
-    item2:"Intermediário",
-    item3:"Imagens ",
-  },
-  {
-    id: 3,
-    name: "Portal na web",
-    description: "O Portal na Web Classe A é a solução completa para empresas de alto nível que desejam se destacar no mundo digital. Conta com atualizações diárias.",
-    valor: "157/Mês",
-    item1:"Atualizações diárias",
-    item2:"Avançado",
-    item3:"Galeria de fotos",
-  },
-  {
-    id: 4,
-    name: "Criação de identidade visual",
-    description: "Destaque sua marca com a nossa expertise em identidade visual. Criamos logotipos e elementos únicos para definir a personalidade da sua empresa, deixando uma impressão memorável.",
-    valor: "229",
-    item1:"Paleta de Cores",
-    item2:"Tipografia",
-    item3:"Elegância",
-  }
 
-  
-];
+
 export const apiPortfolio1 = [ 
   {
     name: "WebSite empresarial",
     description: "Site apresentando empresa",
     imageLink: img30,
     link: "landingmatrizthirtyeight"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img56,
+    link: "landingmatrizfiftythree"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img58,
+    link: "landingmatrizfiftyfive"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img57,
+    link: "landingmatrizfiftyfour"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img55,
+    link: "landingmatrizfiftytwo"
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img54,
+    link: "landingmatrizfiftyone  "
+  },
+  {
+    name: "WebSite empresarial",
+    description: "Site apresentando empresa",
+    imageLink: img53,
+    link: "landingmatrizfifty"
   },
   {
     name: "WebSite empresarial",
@@ -360,53 +331,6 @@ export const apiPortfolio1 = [
     link: "landingmatrizthirtyseven"
   },
   
-];
-export const apiPortfolio2 = [
-  {
-    name: "Empresa x",
-    imageLink: braimportz,
-    link: "braimportz"
-  },
-
-  {
-    name: "Empresa x",
-    imageLink: chefin_griffe,
-    link: "chefin_griffe"
-  },
-  {
-    name: "Empresa x",
-    imageLink: deliciass_dakau,
-    link: "deliciass_dakau"
-  },
-
-  {
-    name: "Empresa x",
-    imageLink: paradizzomoveis,
-    link: "paradizzomoveis"
-  },
-
-  {
-    name: "Empresa x",
-    imageLink:  personaltrainer_leguimaraes,
-    link: "personaltrainer_leguimaraes"
-  },
-  {
-    name: "Empresa x",
-    imageLink:   petra_comunidadecrista,
-    link: "petra_comunidadecrista"
-  },
-  {
-    name: "Empresa x",
-    imageLink:  street_barbershoop,
-    link: "street_barbershoop"
-  },
-  {
-    name: "Empresa x",
-    imageLink: projetec_engcivil,
-    link: "projetec_engcivil"
-  },
-
-
 ];
 export const apiPortfolio3 = [ 
   {
